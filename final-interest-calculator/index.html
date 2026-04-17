@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interest Rate Calculator — Estimate loan payments online</title>
+    <meta
+      name="description"
+      content="Free interest rate calculator: enter principal, annual rate, and loan term to estimate your monthly payment. Simple, fast, and educational."
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Interest Rate Calculator</h1>
+      <p class="lead">
+        Enter your loan details below. All values are converted to numbers before
+        calculating your estimated monthly payment.
+      </p>
+      <div class="card">
+        <form id="calculator-form" novalidate>
+          <label for="principal">Principal ($)</label>
+          <input
+            type="text"
+            id="principal"
+            name="principal"
+            inputmode="decimal"
+            placeholder="e.g. 250000"
+            autocomplete="off"
+          />
+
+          <label for="rate">Annual interest rate (%)</label>
+          <input
+            type="text"
+            id="rate"
+            name="rate"
+            inputmode="decimal"
+            placeholder="e.g. 6.5"
+            autocomplete="off"
+          />
+
+          <label for="years">Loan term (years)</label>
+          <input
+            type="text"
+            id="years"
+            name="years"
+            inputmode="decimal"
+            placeholder="e.g. 30"
+            autocomplete="off"
+          />
+
+          <button type="submit">Calculate</button>
+        </form>
+        <div id="result" aria-live="polite"></div>
+      </div>
+      <footer>
+        <p>Educational project — results are estimates only.</p>
+      </footer>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>
