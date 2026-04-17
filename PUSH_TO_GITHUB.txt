@@ -1,0 +1,30 @@
+Why Coursera said "Unable to fetch": this repository does not exist on GitHub yet (404), or it is private.
+
+Do this once:
+
+1) In the browser, create a NEW repository on GitHub.
+   - Owner: your account (EhsanGhafoori)
+   - Repository name (exact): intermediate_webdev_finalproject
+   - Visibility: Public  (required so the grader can fetch files)
+   - Do NOT add README, .gitignore, or license (empty repo).
+
+2) In PowerShell on your PC:
+
+   cd "d:\Documents\Projects\courses\17.04\test1\intermediate_webdev_finalproject"
+   git push -u origin main
+
+3) Confirm this URL opens in an incognito window (not 404):
+
+   https://raw.githubusercontent.com/EhsanGhafoori/intermediate_webdev_finalproject/main/index.html
+
+4) Coursera URLs to try (use blob first; if the grader still fails, try raw):
+
+   https://github.com/EhsanGhafoori/intermediate_webdev_finalproject/blob/main/index.html
+   https://github.com/EhsanGhafoori/intermediate_webdev_finalproject/blob/main/src/script.js
+
+5) Paste terminal text from these files IN THIS FOLDER (not interest-rate-calculator):
+   no-spec.txt
+   both-tests-passed.txt
+   dist-directory.txt
+
+Each must start with the line: npx jasmine   or   npx webpack
