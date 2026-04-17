@@ -140,3 +140,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Coursera final project (Node / Webpack)
+final-interest-calculator/node_modules/
