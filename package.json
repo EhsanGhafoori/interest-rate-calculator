@@ -1,0 +1,17 @@
+{
+  "name": "intermediate_webdev_finalproject",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interest Rate Calculator — final project (Jasmine, Webpack)",
+  "scripts": {
+    "test": "jasmine",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^12.0.2",
+    "html-webpack-plugin": "^5.6.3",
+    "jasmine": "^5.5.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
